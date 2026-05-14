@@ -33620,7 +33620,7 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/heads,
+/obj/mapping_helper/access/computer_core,
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "gRQ" = (
@@ -45103,6 +45103,18 @@
 	},
 /turf/simulated/floor/black,
 /area/station/chapel/sanctuary)
+"oLv" = (
+/obj/machinery/door/airlock/pyro/command{
+	name = "Computer Core"
+	},
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/mapping_helper/firedoor_spawn,
+/obj/mapping_helper/access/heads,
+/obj/mapping_helper/access/computer_core,
+/turf/simulated/floor/black,
+/area/station/turret_protected/Zeta)
 "oLD" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /turf/simulated/floor/plating,
@@ -123772,7 +123784,7 @@ bpr
 lec
 gQV
 nbc
-gQV
+oLv
 rTG
 bDX
 bnq
