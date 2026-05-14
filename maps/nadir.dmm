@@ -9076,6 +9076,7 @@
 	dir = 4
 	},
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "eew" = (
@@ -30106,6 +30107,7 @@
 /obj/mapping_helper/firedoor_spawn,
 /obj/forcefield/energyshield/perma/doorlink,
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "mYj" = (

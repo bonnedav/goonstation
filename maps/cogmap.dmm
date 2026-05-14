@@ -56027,6 +56027,7 @@
 /obj/mapping_helper/firedoor_spawn,
 /obj/decal/stripe_delivery,
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "rYg" = (

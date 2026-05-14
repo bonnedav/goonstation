@@ -33612,17 +33612,6 @@
 	},
 /turf/simulated/floor/carpet/red/fancy/edge/ne,
 /area/station/security/hos)
-"gQV" = (
-/obj/machinery/door/airlock/pyro/command{
-	name = "Computer Core"
-	},
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/computer_core,
-/turf/simulated/floor/black,
-/area/station/turret_protected/Zeta)
 "gRQ" = (
 /obj/lattice{
 	dir = 6;
@@ -45111,8 +45100,8 @@
 	icon_state = "1-2"
 	},
 /obj/mapping_helper/firedoor_spawn,
-/obj/mapping_helper/access/heads,
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "oLD" = (
@@ -123782,7 +123771,7 @@ bHl
 peh
 bpr
 lec
-gQV
+oLv
 nbc
 oLv
 rTG

@@ -33135,6 +33135,7 @@
 	},
 /obj/mapping_helper/firedoor_spawn,
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "jXW" = (
@@ -44208,6 +44209,7 @@
 	icon_state = "4-8"
 	},
 /obj/mapping_helper/access/computer_core,
+/obj/mapping_helper/access/ai_upload,
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "tsu" = (
