@@ -53478,6 +53478,7 @@
 /obj/cable{
 	icon_state = "2-4"
 	},
+/obj/machinery/camera/directional/west,
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "fxZ" = (
@@ -57739,6 +57740,10 @@
 	dir = 4
 	},
 /area/station/catwalk/north)
+"jaK" = (
+/obj/machinery/camera/directional/east,
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "jaU" = (
 /obj/machinery/atmospherics/binary/valve{
 	dir = 4
@@ -130176,7 +130181,7 @@ aaa
 aaa
 uXV
 uXV
-lPo
+jaK
 lPo
 lPo
 lPo
