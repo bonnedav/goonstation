@@ -54560,6 +54560,15 @@
 /obj/machinery/coffeemaker/botany,
 /turf/simulated/floor/caution/north,
 /area/station/hydroponics/lobby)
+"gBm" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "gBo" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4
@@ -55313,15 +55322,6 @@
 	icon_state = "fgreen5"
 	},
 /area/station/hydroponics/bay)
-"hfZ" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/cable{
-	icon_state = "2-4"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "hgc" = (
 /obj/landmark/start/job/engineer,
 /turf/simulated/floor/yellow/side,
@@ -55833,6 +55833,17 @@
 	dir = 10
 	},
 /area/station/hallway/secondary/exit)
+"hDI" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/data_terminal,
+/obj/table/auto,
+/obj/machinery/networked/printer{
+	print_id = "Mainframe"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "hEd" = (
 /obj/machinery/power/tracker/east,
 /obj/cable/yellow{
@@ -56767,6 +56778,9 @@
 	},
 /obj/machinery/power/data_terminal,
 /obj/machinery/computer3/generic/radio,
+/obj/machinery/light/incandescent/cool{
+	dir = 4
+	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "ika" = (
@@ -57722,6 +57736,9 @@
 /area/station/science/lab)
 "jaW" = (
 /obj/machinery/vending/computer3,
+/obj/machinery/light/incandescent/cool{
+	dir = 8
+	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "jba" = (
@@ -58616,6 +58633,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/quartermaster/office)
+"jKp" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/power/data_terminal,
+/obj/table/auto,
+/obj/machinery/networked/storage/scanner{
+	bank_id = "Mainframe"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "jKq" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8
@@ -63817,6 +63845,9 @@
 /obj/item/storage/box/diskbox,
 /obj/item/storage/box/diskbox,
 /obj/item/storage/box/tapebox,
+/obj/machinery/light/incandescent/cool{
+	dir = 4
+	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "ocj" = (
@@ -64083,6 +64114,9 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/power/data_terminal,
+/obj/machinery/light/incandescent/cool{
+	dir = 8
+	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "olE" = (
@@ -64251,17 +64285,6 @@
 /obj/machinery/light/incandescent,
 /turf/simulated/floor,
 /area/station/hallway/primary/southwest)
-"ouw" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/data_terminal,
-/obj/table/auto,
-/obj/machinery/networked/storage/scanner{
-	bank_id = "Mainframe"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "ouZ" = (
 /obj/mesh/catwalk{
 	dir = 6
@@ -65136,17 +65159,6 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/station/security/checkpoint/podbay)
-"plr" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/data_terminal,
-/obj/table/auto,
-/obj/machinery/networked/printer{
-	print_id = "Mainframe"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "plC" = (
 /obj/stool/chair/comfy{
 	dir = 1
@@ -128898,7 +128910,7 @@ qyA
 xhZ
 xhZ
 xhZ
-hfZ
+gBm
 kOD
 bbi
 xmC
@@ -129502,7 +129514,7 @@ vWy
 lPo
 lPo
 lPo
-plr
+hDI
 kcs
 aam
 chb
@@ -129804,7 +129816,7 @@ ijZ
 lPo
 lPo
 lPo
-ouw
+jKp
 kcs
 aam
 chb
