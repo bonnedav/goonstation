@@ -52550,7 +52550,13 @@
 /area/station/maintenance/central)
 "eGj" = (
 /obj/cable{
-	icon_state = "1-2"
+	icon_state = "4-8"
+	},
+/obj/cable{
+	icon_state = "2-4"
+	},
+/obj/cable{
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
@@ -53246,6 +53252,15 @@
 	},
 /turf/simulated/floor/airless/plating/catwalk,
 /area/station/com_dish/auxdish)
+"fnk" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "fnA" = (
 /obj/table/auto,
 /obj/machinery/computer/television/small{
@@ -53450,13 +53465,19 @@
 	},
 /area/station/mining/magnet)
 "fwC" = (
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/data_terminal,
 /obj/machinery/networked/mainframe/zeta{
 	tag = "ZETA_MAINFRAME"
 	},
 /obj/cable{
-	icon_state = "1-2"
+	icon_state = "1-4"
 	},
-/obj/machinery/power/data_terminal,
+/obj/cable{
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "fxZ" = (
@@ -54155,6 +54176,9 @@
 /obj/item/paper/book/from_file/dwainedummies,
 /obj/item/device/multitool,
 /obj/item/screwdriver,
+/obj/machinery/light/incandescent/cool{
+	dir = 4
+	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "gjf" = (
@@ -54560,15 +54584,6 @@
 /obj/machinery/coffeemaker/botany,
 /turf/simulated/floor/caution/north,
 /area/station/hydroponics/lobby)
-"gBm" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/cable{
-	icon_state = "2-4"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "gBo" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4
@@ -55833,17 +55848,6 @@
 	dir = 10
 	},
 /area/station/hallway/secondary/exit)
-"hDI" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/data_terminal,
-/obj/table/auto,
-/obj/machinery/networked/printer{
-	print_id = "Mainframe"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "hEd" = (
 /obj/machinery/power/tracker/east,
 /obj/cable/yellow{
@@ -56719,6 +56723,15 @@
 	},
 /turf/simulated/floor/airless/plating/catwalk,
 /area/station/solar/north)
+"igt" = (
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/circuit/green,
+/area/station/turret_protected/Zeta)
 "igu" = (
 /obj/storage/closet/emergency,
 /turf/simulated/floor/plating,
@@ -56773,13 +56786,13 @@
 	},
 /area/station/catwalk/north)
 "ijZ" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/power/data_terminal,
 /obj/machinery/computer3/generic/radio,
 /obj/machinery/light/incandescent/cool{
 	dir = 4
+	},
+/obj/cable{
+	icon_state = "0-8"
 	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
@@ -56818,13 +56831,11 @@
 /turf/simulated/floor/grass/leafy,
 /area/station/garden/owlery)
 "imu" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/networked/storage/tape_drive{
 	bank_id = "Backup"
 	},
 /obj/machinery/power/data_terminal,
+/obj/cable,
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "imD" = (
@@ -58633,17 +58644,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/quartermaster/office)
-"jKp" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/power/data_terminal,
-/obj/table/auto,
-/obj/machinery/networked/storage/scanner{
-	bank_id = "Mainframe"
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "jKq" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8
@@ -59190,9 +59190,14 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hangar/science)
 "kcs" = (
-/obj/mapping_helper/wingrille_spawn/auto/reinforced,
-/turf/simulated/floor/plating,
-/area/station/turret_protected/Zeta)
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/light/incandescent/cool{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/station/maintenance/northeast)
 "kcH" = (
 /obj/item/device/radio/intercom/mining{
 	dir = 1
@@ -59997,7 +60002,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "kPs" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -60506,6 +60511,20 @@
 	},
 /turf/simulated/floor/airless/plating/damaged3,
 /area/station/mining/magnet)
+"lfP" = (
+/obj/machinery/power/data_terminal,
+/obj/table/auto,
+/obj/machinery/networked/printer{
+	print_id = "Mainframe"
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "lgq" = (
 /obj/cable/orange{
 	icon_state = "0-8"
@@ -61827,6 +61846,12 @@
 	icon_state = "fgreen2"
 	},
 /area/station/hydroponics/bay)
+"mqt" = (
+/obj/machinery/light/incandescent/cool{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "mrr" = (
 /obj/cable/orange{
 	icon_state = "1-8"
@@ -62790,6 +62815,15 @@
 	dir = 8
 	},
 /area/station/hallway/secondary/exit)
+"ndi" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "nej" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -64110,12 +64144,12 @@
 /area/station/maintenance/disposal)
 "okV" = (
 /obj/machinery/networked/radio,
-/obj/cable{
-	icon_state = "2-4"
-	},
 /obj/machinery/power/data_terminal,
 /obj/machinery/light/incandescent/cool{
 	dir = 8
+	},
+/obj/cable{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
@@ -64502,6 +64536,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/security/main)
+"oIs" = (
+/obj/machinery/light/incandescent/cool,
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "oIB" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
@@ -65844,6 +65885,15 @@
 /obj/machinery/atmospherics/pipe/simple/insulated/cold,
 /turf/space,
 /area/space)
+"pPi" = (
+/obj/machinery/light/incandescent/cool{
+	dir = 1
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "pPN" = (
 /obj/machinery/sink{
 	desc = "A common utility sink.";
@@ -66668,11 +66718,9 @@
 /area/station/routing/depot)
 "qyA" = (
 /obj/cable{
-	icon_state = "2-8"
+	icon_state = "2-4"
 	},
-/obj/cable{
-	icon_state = "4-8"
-	},
+/obj/machinery/alarm/directional/north,
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "qzf" = (
@@ -67792,13 +67840,10 @@
 	},
 /area/station/hallway/primary/east)
 "rnj" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/power/data_terminal,
 /obj/machinery/computer3/terminal/zeta/os_loaded,
 /obj/cable{
-	icon_state = "2-4"
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
@@ -71169,6 +71214,10 @@
 	},
 /turf/simulated/floor/grey/blackgrime,
 /area/station/hangar/catering)
+"uuf" = (
+/obj/machinery/light/incandescent/cool,
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "uuC" = (
 /obj/cable{
 	icon_state = "0-2"
@@ -72116,14 +72165,11 @@
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/locker)
 "vrz" = (
-/obj/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/power/data_terminal,
-/obj/cable{
-	icon_state = "2-4"
-	},
 /obj/item/device/net_sniffer,
+/obj/cable{
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "vrK" = (
@@ -72721,6 +72767,17 @@
 	dir = 10
 	},
 /area/station/quartermaster/office)
+"vSV" = (
+/obj/machinery/power/data_terminal,
+/obj/table/auto,
+/obj/machinery/networked/storage/scanner{
+	bank_id = "Mainframe"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "vTP" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/kitchen)
@@ -72775,10 +72832,13 @@
 /turf/simulated/floor/grime,
 /area/station/routing/engine)
 "vWy" = (
+/obj/machinery/power/apc/autoname_north,
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/power/apc/autoname_north,
+/obj/cable{
+	icon_state = "0-4"
+	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "vWN" = (
@@ -73377,10 +73437,11 @@
 	name = "Databank - Control";
 	setup_drive_type = /obj/item/disk/data/tape/master
 	},
-/obj/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/power/data_terminal,
+/obj/machinery/light/incandescent/cool{
+	dir = 8
+	},
+/obj/cable,
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "wBK" = (
@@ -74120,7 +74181,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor,
 /area/station/maintenance/northeast)
 "xmX" = (
 /obj/machinery/power/apc{
@@ -128005,9 +128066,9 @@ eGj
 imu
 lPo
 lPo
-kcs
+uXV
 aam
-chb
+cha
 ckp
 chV
 chb
@@ -128303,13 +128364,13 @@ aaa
 aaa
 uXV
 rnj
-eGj
+igt
 pkg
 lPo
 lPo
-kcs
+uXV
 aam
-chb
+cha
 ckp
 chV
 cha
@@ -128603,14 +128664,14 @@ aaa
 aaa
 aaa
 aaa
-kcs
+uXV
+mqt
 xqw
 lPo
 lPo
-lPo
-lPo
+uuf
 uXV
-chU
+cha
 cha
 atP
 chV
@@ -128905,14 +128966,14 @@ aaa
 aaa
 aaa
 aaa
-kcs
+uXV
 qyA
+fnk
 xhZ
 xhZ
-xhZ
-gBm
+ndi
 kOD
-bbi
+kcs
 xmC
 pKF
 qOI
@@ -129207,14 +129268,14 @@ aaa
 aaa
 aaa
 aaa
-kcs
-xqw
-lPo
-lPo
-lPo
-xqw
 uXV
-chU
+pPi
+lPo
+lPo
+lPo
+oIs
+uXV
+cha
 cha
 atQ
 cnG
@@ -129514,10 +129575,10 @@ vWy
 lPo
 lPo
 lPo
-hDI
-kcs
+lfP
+uXV
 aam
-chb
+cha
 ckp
 cnG
 cha
@@ -129816,10 +129877,10 @@ ijZ
 lPo
 lPo
 lPo
-jKp
-kcs
+vSV
+uXV
 aam
-chb
+cha
 ckp
 cnG
 chb
