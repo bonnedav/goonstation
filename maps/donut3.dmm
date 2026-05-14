@@ -6196,6 +6196,7 @@
 	bank_id = "Backup"
 	},
 /obj/machinery/power/data_terminal,
+/obj/cable,
 /turf/simulated/floor/circuit/green,
 /area/station/turret_protected/Zeta)
 "bPz" = (
@@ -38308,10 +38309,10 @@
 /area/station/security/evidence)
 "lRK" = (
 /obj/cable{
-	icon_state = "1-2"
+	icon_state = "2-4"
 	},
 /obj/cable{
-	icon_state = "2-4"
+	icon_state = "2-8"
 	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
@@ -72959,6 +72960,12 @@
 /obj/decal/poster/wallsign/space,
 /turf/simulated/wall/auto/reinforced/jen/blue,
 /area/station/maintenance/inner/sw)
+"wwi" = (
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "wwj" = (
 /obj/machinery/sink{
 	dir = 8
@@ -119378,7 +119385,7 @@ xlH
 lJx
 ehE
 tuv
-kDQ
+wwi
 kDQ
 sWi
 xlH
