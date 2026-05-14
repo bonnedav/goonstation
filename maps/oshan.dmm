@@ -44208,7 +44208,6 @@
 	icon_state = "4-8"
 	},
 /obj/mapping_helper/access/computer_core,
-/obj/mapping_helper/access/computer_core,
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "tsu" = (
