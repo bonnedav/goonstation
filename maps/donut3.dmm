@@ -61212,7 +61212,7 @@
 	icon_state = "4-8"
 	},
 /obj/cable{
-	icon_state = "0-2"
+	icon_state = "0-4"
 	},
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
