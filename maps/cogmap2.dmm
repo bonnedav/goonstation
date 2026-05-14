@@ -51542,6 +51542,10 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engine/core)
+"dEb" = (
+/obj/machinery/firealarm/directional/south,
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "dEt" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 8
@@ -57740,10 +57744,6 @@
 	dir = 4
 	},
 /area/station/catwalk/north)
-"jaK" = (
-/obj/machinery/camera/directional/east,
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "jaU" = (
 /obj/machinery/atmospherics/binary/valve{
 	dir = 4
@@ -60007,6 +60007,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
+/obj/mapping_helper/firedoor_spawn,
 /turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "kPs" = (
@@ -68743,6 +68744,10 @@
 	dir = 10
 	},
 /area/station/com_dish/auxdish)
+"sgG" = (
+/obj/machinery/camera/directional/east,
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "shp" = (
 /obj/decal/cleanable/cobweb,
 /obj/landmark/halloween,
@@ -128070,7 +128075,7 @@ vrz
 eGj
 imu
 lPo
-lPo
+dEb
 uXV
 aam
 cha
@@ -130181,7 +130186,7 @@ aaa
 aaa
 uXV
 uXV
-jaK
+sgG
 lPo
 lPo
 lPo
