@@ -34302,6 +34302,7 @@
 	dir = 4;
 	pixel_x = 12
 	},
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/grey/blackgrime/other,
 /area/station/storage/tech)
 "cgE" = (

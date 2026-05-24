@@ -29582,6 +29582,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "cjW" = (

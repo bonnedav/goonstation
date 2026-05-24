@@ -35936,10 +35936,10 @@
 	},
 /area/station/mining/magnet)
 "iJB" = (
-/obj/machinery/power/data_terminal,
 /obj/cable{
 	icon_state = "0-4"
 	},
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "iJR" = (

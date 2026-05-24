@@ -49177,6 +49177,10 @@
 /obj/machinery/light/small/floor,
 /turf/simulated/floor/carpet/arcade,
 /area/station/crew_quarters/hor)
+"pnn" = (
+/obj/machinery/vending/mechnet,
+/turf/simulated/floor/plating/jen,
+/area/station/storage/tech)
 "pnF" = (
 /obj/mesh/catwalk/jen,
 /obj/decal/cleanable/dirt/jen,
@@ -131190,7 +131194,7 @@ xTz
 gfN
 ctz
 ujy
-rdj
+ujy
 rdj
 rdj
 rdj
@@ -131491,7 +131495,7 @@ fdp
 whf
 xRb
 cHZ
-ujy
+pnn
 ujy
 rdj
 rdj

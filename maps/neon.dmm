@@ -6042,6 +6042,7 @@
 /obj/cable{
 	icon_state = "1-8"
 	},
+/obj/item/clothing/glasses/toggleable/meson,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "emq" = (
@@ -32848,7 +32849,6 @@
 	},
 /area/station/hallway/secondary/exit)
 "wTp" = (
-/obj/item/clothing/glasses/toggleable/meson,
 /obj/machinery/power/apc/autoname_west,
 /obj/cable{
 	icon_state = "0-4"
@@ -32856,6 +32856,7 @@
 /obj/cable{
 	icon_state = "1-4"
 	},
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "wTG" = (

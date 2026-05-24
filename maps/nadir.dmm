@@ -32330,7 +32330,7 @@
 /obj/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/data_terminal,
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "nVn" = (

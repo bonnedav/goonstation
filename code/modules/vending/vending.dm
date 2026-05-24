@@ -1752,6 +1752,29 @@ ABSTRACT_TYPE(/obj/machinery/vending/cola)
 			qdel(W)
 			return
 
+/obj/machinery/vending/mechnet
+	name = "Networking MechComp Dispenser"
+	desc = "Dispenses electronics equipment."
+	icon_state = "generic"
+	icon_panel = "generic-panel"
+	acceptcard = 0
+	pay = 0
+
+	light_r =1
+	light_g = 0.88
+	light_b = 0.3
+
+	create_products(restocked)
+		..()
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/networkcomp, 10)
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/wificomp, 10)
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/filecomp, 10)
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/trigger/button, 10)
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/synthcomp, 10)
+		product_list += new/datum/data/vending_product(/obj/item/mechanics/thprint, 10)
+
+
+
 /obj/machinery/vending/computer3
 	name = "CompTech"
 	desc = "A computer equipment vendor."

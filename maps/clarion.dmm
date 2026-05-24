@@ -13672,6 +13672,7 @@
 /obj/machinery/camera/directional/north{
 	pixel_x = 10
 	},
+/obj/machinery/vending/mechnet,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
 "fbI" = (
